@@ -31,10 +31,6 @@ public class PhoneRecordsStorage {
         ));
     }
 
-//    public Set getAllPhoneRecords() {
-//        return storage.entrySet();
-//    }
-
     public PhoneRecord getRecordById(Long id) {
         return storage.get(id);
     }
